@@ -1,0 +1,82 @@
+# Python build and generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments and tool caches
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local environment, credentials, and key material
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+secrets.*
+*.secret
+*.secrets
+credentials.*
+service-account*.json
+*-service-account.json
+firebase-adminsdk*.json
+google-credentials*.json
+aws-credentials*
+
+# Private local notes
+PERSONAL.md
+PERSONAL-*.md
+personal.md
+personal-*.md
+PRIVATE.md
+PRIVATE-*.md
+private.md
+private-*.md
+local-notes.md
+local-notes/
+.private/
+.local/
+.agent-private/
+
+# Logs and temporary editor files
+*.log
+logs/
+*.swp
+*.swo
+*.tmp
+*.temp
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# Experiment output. See CLAUDE.md section 7 for the storage policy.
+#   results/raw/       large per-run rows, regenerable from script + seed -> ignored
+#   results/summaries/ compact aggregates consumed by the report + figures -> committed
+results/raw/
+!results/summaries/
+!results/summaries/*.csv
+!results/summaries/*.parquet
+
+# Notebook, OS, and local tool artifacts
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
